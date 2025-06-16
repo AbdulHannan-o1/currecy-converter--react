@@ -1,12 +1,51 @@
-# React + Vite
+# 💱 Currency Converter 🔄
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[🌐 Live Demo](https://abdulhannan-o1.github.io/currecy-converter--react/)  
+🎉 My **very first React project**, now live and powered by **real-time exchange rates API**!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## Expanding the ESLint configuration
+This is a sleek and simple Currency Converter built with **React**. It fetches **live exchange rates** via an external API to give you up-to-date currency conversions 💹.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✨ Features:
+
+- 🔄 Convert between multiple global currencies
+- 🌍 Real-time exchange rates from an API
+- 📱 Fully responsive and mobile-friendly
+- 💡 Lightweight & fast — built with Vite
+
+---
+
+## ⚙️ Tech Stack
+
+- ⚛️ React 19
+- ⚡ Vite
+- 🖼️ Bootstrap Icons
+- 🌐 Currency Exchange API (e.g., [ExchangeRate-API](https://www.exchangerate-api.com/) or similar)
+- 🚀 GitHub Pages for deployment
+
+---
+
+## 🧠 What I Learned
+
+This being my **first React app**, I learned how to:
+
+- Manage state and props effectively
+- Use `useEffect` to fetch data from APIs
+- Handle asynchronous operations in React
+- Configure Vite for GitHub Pages deployment
+- Troubleshoot real-world issues (like 404s, blank screens, and wrong base paths 😅)
+
+
+
+## 🚀 Getting Started Locally
+
+Clone and run the project on your machine:
+
+```bash
+git clone https://github.com/AbdulHannan-o1/currecy-converter--react.git
+cd currecy-converter--react
+npm install
+npm run dev
